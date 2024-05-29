@@ -1,0 +1,122 @@
+{
+    "sourceFile": "src/components/About/Techstack.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 26,
+            "patches": [
+                {
+                    "date": 1716997336670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1716997490355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import React from \"react\";\r\n import { Col, Row } from \"react-bootstrap\";\r\n import { CgCPlusPlus } from \"react-icons/cg\";\r\n import {\r\n+  DiPhp,\r\n   DiJavascript1,\r\n   DiReact,\r\n   DiNodejs,\r\n   DiMongodb,\r\n"
+                },
+                {
+                    "date": 1716997499663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n function Techstack() {\r\n   return (\r\n     <Row style={{ justifyContent: \"center\", paddingBottom: \"50px\" }}>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n-        <CgCPlusPlus />\r\n+        <DiPhp />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <DiJavascript1 />\r\n       </Col>\r\n"
+                },
+                {
+                    "date": 1716997588150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <TbBrandGolang />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n-        <DiNodejs />\r\n+        <DiLaravel />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <DiReact />\r\n       </Col>\r\n"
+                },
+                {
+                    "date": 1716997619260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import {\r\n   DiPhp,\r\n   DiJavascript1,\r\n   DiReact,\r\n-  DiNodejs,\r\n+  DiLaravel,\r\n   DiMongodb,\r\n   DiPython,\r\n   DiGit,\r\n   DiJava,\r\n"
+                },
+                {
+                    "date": 1716997849086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n   DiGit,\r\n   DiJava,\r\n } from \"react-icons/di\";\r\n import {\r\n+  SiAlpinedotjs\r\n   SiRedis,\r\n   SiFirebase,\r\n   SiNextdotjs,\r\n   SiSolidity,\r\n@@ -38,9 +39,9 @@\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <DiReact />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n-        <SiSolidity />\r\n+        <SiAlpinedotjs />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <DiMongodb />\r\n       </Col>\r\n"
+                },
+                {
+                    "date": 1716997861840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   DiGit,\r\n   DiJava,\r\n } from \"react-icons/di\";\r\n import {\r\n-  SiAlpinedotjs\r\n+  SiAlpinedotjs,\r\n   SiRedis,\r\n   SiFirebase,\r\n   SiNextdotjs,\r\n   SiSolidity,\r\n"
+                },
+                {
+                    "date": 1716997930535,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,8 @@\n   SiAlpinedotjs,\r\n   SiRedis,\r\n   SiFirebase,\r\n   SiNextdotjs,\r\n-  SiSolidity,\r\n   SiPostgresql,\r\n } from \"react-icons/si\";\r\n import { TbBrandGolang } from \"react-icons/tb\";\r\n \r\n"
+                },
+                {
+                    "date": 1716997994802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n   DiJava,\r\n } from \"react-icons/di\";\r\n import {\r\n   SiAlpinedotjs,\r\n+  SiSqlite,\r\n   SiRedis,\r\n   SiFirebase,\r\n   SiNextdotjs,\r\n   SiPostgresql,\r\n"
+                },
+                {
+                    "date": 1716998005483,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <SiRedis />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n-        <SiPostgresql />\r\n+        <SiSqlite />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <DiPython />\r\n       </Col>\r\n"
+                },
+                {
+                    "date": 1716998069321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n   DiJava,\r\n } from \"react-icons/di\";\r\n import {\r\n   SiAlpinedotjs,\r\n+  SiMysql,\r\n   SiSqlite,\r\n   SiRedis,\r\n   SiFirebase,\r\n   SiNextdotjs,\r\n"
+                },
+                {
+                    "date": 1716998085070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <SiFirebase />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n-        <SiRedis />\r\n+        <SiMysql />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <SiSqlite />\r\n       </Col>\r\n"
+                },
+                {
+                    "date": 1716998262061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n   DiReact,\r\n   DiLaravel,\r\n   DiMongodb,\r\n   DiPython,\r\n+  DiMysql,\r\n   DiGit,\r\n   DiJava,\r\n } from \"react-icons/di\";\r\n import {\r\n@@ -25,9 +26,9 @@\n function Techstack() {\r\n   return (\r\n     <Row style={{ justifyContent: \"center\", paddingBottom: \"50px\" }}>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n-        <DiPhp />\r\n+        <DiMysql />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <DiJavascript1 />\r\n       </Col>\r\n"
+                },
+                {
+                    "date": 1716998275212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n function Techstack() {\r\n   return (\r\n     <Row style={{ justifyContent: \"center\", paddingBottom: \"50px\" }}>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n-        <DiMysql />\r\n+        <DiPhp />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <DiJavascript1 />\r\n       </Col>\r\n"
+                },
+                {
+                    "date": 1716998283541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,8 @@\n   DiReact,\r\n   DiLaravel,\r\n   DiMongodb,\r\n   DiPython,\r\n-  DiMysql,\r\n   DiGit,\r\n   DiJava,\r\n } from \"react-icons/di\";\r\n import {\r\n"
+                },
+                {
+                    "date": 1716998464145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <SiAlpinedotjs />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n-        <DiMongodb />\r\n+        <SiTailwindcss />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <SiNextdotjs />\r\n       </Col>\r\n"
+                },
+                {
+                    "date": 1716998478192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n   DiJava,\r\n } from \"react-icons/di\";\r\n import {\r\n   SiAlpinedotjs,\r\n+  SiTailwindcss,\r\n   SiMysql,\r\n   SiSqlite,\r\n   SiRedis,\r\n   SiFirebase,\r\n"
+                },
+                {
+                    "date": 1716998598855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n   DiJavascript1,\r\n   DiReact,\r\n   DiLaravel,\r\n   DiMongodb,\r\n+  DiChrome,\r\n   DiPython,\r\n   DiGit,\r\n   DiJava,\r\n } from \"react-icons/di\";\r\n"
+                },
+                {
+                    "date": 1716998625930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <SiSqlite />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n-        <DiPython />\r\n+        <DiChrome />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <DiJava />\r\n       </Col>\r\n"
+                },
+                {
+                    "date": 1716998746933,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n } from \"react-icons/di\";\r\n import {\r\n   SiAlpinedotjs,\r\n   SiTailwindcss,\r\n+  SiPhpmyadmin,\r\n   SiMysql,\r\n   SiSqlite,\r\n   SiRedis,\r\n   SiFirebase,\r\n"
+                },
+                {
+                    "date": 1716998771214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <DiReact />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n-        <SiAlpinedotjs />\r\n+        <SiPhpmyadmin />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <SiTailwindcss />\r\n       </Col>\r\n"
+                },
+                {
+                    "date": 1716998802267,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <DiReact />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n-        <SiPhpmyadmin />\r\n+        <SiAlpinedotjs />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <SiTailwindcss />\r\n       </Col>\r\n"
+                },
+                {
+                    "date": 1716998809209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <SiTailwindcss />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n-        <SiNextdotjs />\r\n+        <SiPhpmyadmin />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <DiGit />\r\n       </Col>\r\n"
+                },
+                {
+                    "date": 1716999054714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <SiSqlite />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n-        <DiChrome />\r\n+        <SiKotlin />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <DiJava />\r\n       </Col>\r\n"
+                },
+                {
+                    "date": 1716999064010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,9 @@\n import {\r\n   SiAlpinedotjs,\r\n   SiTailwindcss,\r\n   SiPhpmyadmin,\r\n+  SiKotlin,\r\n   SiMysql,\r\n   SiSqlite,\r\n   SiRedis,\r\n   SiFirebase,\r\n"
+                },
+                {
+                    "date": 1716999081610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,12 +18,9 @@\n   SiPhpmyadmin,\r\n   SiKotlin,\r\n   SiMysql,\r\n   SiSqlite,\r\n-  SiRedis,\r\n   SiFirebase,\r\n-  SiNextdotjs,\r\n-  SiPostgresql,\r\n } from \"react-icons/si\";\r\n import { TbBrandGolang } from \"react-icons/tb\";\r\n \r\n function Techstack() {\r\n"
+                },
+                {
+                    "date": 1716999089829,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,11 +5,8 @@\n   DiPhp,\r\n   DiJavascript1,\r\n   DiReact,\r\n   DiLaravel,\r\n-  DiMongodb,\r\n-  DiChrome,\r\n-  DiPython,\r\n   DiGit,\r\n   DiJava,\r\n } from \"react-icons/di\";\r\n import {\r\n"
+                }
+            ],
+            "date": 1716997336670,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\r\nimport { Col, Row } from \"react-bootstrap\";\r\nimport { CgCPlusPlus } from \"react-icons/cg\";\r\nimport {\r\n  DiJavascript1,\r\n  DiReact,\r\n  DiNodejs,\r\n  DiMongodb,\r\n  DiPython,\r\n  DiGit,\r\n  DiJava,\r\n} from \"react-icons/di\";\r\nimport {\r\n  SiRedis,\r\n  SiFirebase,\r\n  SiNextdotjs,\r\n  SiSolidity,\r\n  SiPostgresql,\r\n} from \"react-icons/si\";\r\nimport { TbBrandGolang } from \"react-icons/tb\";\r\n\r\nfunction Techstack() {\r\n  return (\r\n    <Row style={{ justifyContent: \"center\", paddingBottom: \"50px\" }}>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <CgCPlusPlus />\r\n      </Col>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <DiJavascript1 />\r\n      </Col>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <TbBrandGolang />\r\n      </Col>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <DiNodejs />\r\n      </Col>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <DiReact />\r\n      </Col>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <SiSolidity />\r\n      </Col>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <DiMongodb />\r\n      </Col>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <SiNextdotjs />\r\n      </Col>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <DiGit />\r\n      </Col>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <SiFirebase />\r\n      </Col>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <SiRedis />\r\n      </Col>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <SiPostgresql />\r\n      </Col>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <DiPython />\r\n      </Col>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <DiJava />\r\n      </Col>\r\n    </Row>\r\n  );\r\n}\r\n\r\nexport default Techstack;\r\n"
+        }
+    ]
+}

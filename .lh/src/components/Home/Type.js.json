@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/components/Home/Type.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1716898851774,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1716941960798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,10 @@\n     <Typewriter\r\n       options={{\r\n         strings: [\r\n           \"Web Developer\",\r\n+          \"Android Developer\",\r\n           \"Freelancer\",\r\n-          \"Android Developer\",\r\n           \"Project Manager\",\r\n         ],\r\n         autoStart: true,\r\n         loop: true,\r\n"
+                }
+            ],
+            "date": 1716898851774,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\r\nimport Typewriter from \"typewriter-effect\";\r\n\r\nfunction Type() {\r\n  return (\r\n    <Typewriter\r\n      options={{\r\n        strings: [\r\n          \"Web Developer\",\r\n          \"Freelancer\",\r\n          \"Android Developer\",\r\n          \"Project Manager\",\r\n        ],\r\n        autoStart: true,\r\n        loop: true,\r\n        deleteSpeed: 50,\r\n      }}\r\n    />\r\n  );\r\n}\r\n\r\nexport default Type;\r\n"
+        }
+    ]
+}

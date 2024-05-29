@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/components/About/Github.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1716969746290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1716969788634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n       <h1 className=\"project-heading\" style={{ paddingBottom: \"20px\" }}>\r\n         Days I <strong className=\"purple\">Code</strong>\r\n       </h1>\r\n       <GitHubCalendar\r\n-        username=\"bhaktiramadhani\"\r\n+        username=\"harryhdt\"\r\n         blockSize={15}\r\n         blockMargin={5}\r\n         color=\"#c084f5\"\r\n         fontSize={16}\r\n"
+                },
+                {
+                    "date": 1716969857175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n       <h1 className=\"project-heading\" style={{ paddingBottom: \"20px\" }}>\r\n         Days I <strong className=\"purple\">Code</strong>\r\n       </h1>\r\n       <GitHubCalendar\r\n-        username=\"harryhdt\"\r\n+        username=\"call-zull\"\r\n         blockSize={15}\r\n         blockMargin={5}\r\n         color=\"#c084f5\"\r\n         fontSize={16}\r\n"
+                }
+            ],
+            "date": 1716969746290,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\r\nimport GitHubCalendar from \"react-github-calendar\";\r\nimport { Row } from \"react-bootstrap\";\r\n\r\nfunction Github() {\r\n  return (\r\n    <Row style={{ justifyContent: \"center\", paddingBottom: \"10px\" }}>\r\n      <h1 className=\"project-heading\" style={{ paddingBottom: \"20px\" }}>\r\n        Days I <strong className=\"purple\">Code</strong>\r\n      </h1>\r\n      <GitHubCalendar\r\n        username=\"bhaktiramadhani\"\r\n        blockSize={15}\r\n        blockMargin={5}\r\n        color=\"#c084f5\"\r\n        fontSize={16}\r\n      />\r\n    </Row>\r\n  );\r\n}\r\n\r\nexport default Github;\r\n"
+        }
+    ]
+}

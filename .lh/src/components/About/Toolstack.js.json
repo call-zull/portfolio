@@ -1,0 +1,34 @@
+{
+    "sourceFile": "src/components/About/Toolstack.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1716969954539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1716969986349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   SiVisualstudiocode,\r\n   SiPostman,\r\n   SiSlack,\r\n   SiVercel,\r\n-  SiMacos,\r\n+  SiWindows,\r\n } from \"react-icons/si\";\r\n \r\n function Toolstack() {\r\n   return (\r\n"
+                },
+                {
+                    "date": 1716997197404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { Col, Row } from \"react-bootstrap\";\r\n import {\r\n   SiVisualstudiocode,\r\n   SiPostman,\r\n-  SiSlack,\r\n+  SiAndroidstudio,\r\n   SiVercel,\r\n   SiWindows,\r\n } from \"react-icons/si\";\r\n \r\n"
+                },
+                {
+                    "date": 1716997216108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <SiPostman />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n-        <SiSlack />\r\n+        <SiAndroidstudio />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <SiVercel />\r\n       </Col>\r\n"
+                },
+                {
+                    "date": 1716997296311,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import {\r\n   SiVisualstudiocode,\r\n   SiPostman,\r\n   SiAndroidstudio,\r\n-  SiVercel,\r\n+  SiXampp,\r\n   SiWindows,\r\n } from \"react-icons/si\";\r\n \r\n function Toolstack() {\r\n@@ -23,9 +23,9 @@\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n         <SiAndroidstudio />\r\n       </Col>\r\n       <Col xs={4} md={2} className=\"tech-icons\">\r\n-        <SiVercel />\r\n+        <SiXampp />\r\n       </Col>\r\n     </Row>\r\n   );\r\n }\r\n"
+                }
+            ],
+            "date": 1716969954539,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\r\nimport { Col, Row } from \"react-bootstrap\";\r\nimport {\r\n  SiVisualstudiocode,\r\n  SiPostman,\r\n  SiSlack,\r\n  SiVercel,\r\n  SiMacos,\r\n} from \"react-icons/si\";\r\n\r\nfunction Toolstack() {\r\n  return (\r\n    <Row style={{ justifyContent: \"center\", paddingBottom: \"50px\" }}>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <SiWindows />\r\n      </Col>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <SiVisualstudiocode />\r\n      </Col>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <SiPostman />\r\n      </Col>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <SiSlack />\r\n      </Col>\r\n      <Col xs={4} md={2} className=\"tech-icons\">\r\n        <SiVercel />\r\n      </Col>\r\n    </Row>\r\n  );\r\n}\r\n\r\nexport default Toolstack;\r\n"
+        }
+    ]
+}

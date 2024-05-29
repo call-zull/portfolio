@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/Home/Home.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1716898404362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1716898404362,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\r\nimport { Container, Row, Col } from \"react-bootstrap\";\r\nimport homeLogo from \"../../Assets/home-main.svg\";\r\nimport Particle from \"../Particle\";\r\nimport Home2 from \"./Home2\";\r\nimport Type from \"./Type\";\r\n\r\nfunction Home() {\r\n  return (\r\n    <section>\r\n      <Container fluid className=\"home-section\" id=\"home\">\r\n        <Particle />\r\n        <Container className=\"home-content\">\r\n          <Row>\r\n            <Col md={7} className=\"home-header\">\r\n              <h1 style={{ paddingBottom: 15 }} className=\"heading\">\r\n                Hi There!{\" \"}\r\n                <span className=\"wave\" role=\"img\" aria-labelledby=\"wave\">\r\n                  👋🏻\r\n                </span>\r\n              </h1>\r\n\r\n              <h1 className=\"heading-name\">\r\n                I'M\r\n                <strong className=\"main-name\"> Muhammad Zulkifli</strong>\r\n              </h1>\r\n\r\n              <div style={{ padding: 50, textAlign: \"left\" }}>\r\n                <Type />\r\n              </div>\r\n            </Col>\r\n\r\n            <Col md={5} style={{ paddingBottom: 20 }}>\r\n              <img\r\n                src={homeLogo}\r\n                alt=\"home pic\"\r\n                className=\"img-fluid\"\r\n                style={{ maxHeight: \"450px\" }}\r\n              />\r\n            </Col>\r\n          </Row>\r\n        </Container>\r\n      </Container>\r\n      <Home2 />\r\n    </section>\r\n  );\r\n}\r\n\r\nexport default Home;\r\n"
+        }
+    ]
+}

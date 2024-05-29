@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/Projects/ProjectCards.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1717001064208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1717001064208,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\r\nimport Card from \"react-bootstrap/Card\";\r\nimport Button from \"react-bootstrap/Button\";\r\nimport { CgWebsite } from \"react-icons/cg\";\r\nimport { BsGithub } from \"react-icons/bs\";\r\n\r\nfunction ProjectCards(props) {\r\n  return (\r\n    <Card className=\"project-card-view\">\r\n      <Card.Img variant=\"top\" src={props.imgPath} alt=\"card-img\" />\r\n      <Card.Body>\r\n        <Card.Title>{props.title}</Card.Title>\r\n        <Card.Text style={{ textAlign: \"justify\" }}>\r\n          {props.description}\r\n        </Card.Text>\r\n        <Button variant=\"primary\" href={props.ghLink} target=\"_blank\">\r\n          <BsGithub /> &nbsp;\r\n          {props.isBlog ? \"Blog\" : \"GitHub\"}\r\n        </Button>\r\n        {\"\\n\"}\r\n        {\"\\n\"}\r\n\r\n        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}\r\n\r\n        {!props.isBlog && props.demoLink && (\r\n          <Button\r\n            variant=\"primary\"\r\n            href={props.demoLink}\r\n            target=\"_blank\"\r\n            style={{ marginLeft: \"10px\" }}\r\n          >\r\n            <CgWebsite /> &nbsp;\r\n            {\"Demo\"}\r\n          </Button>\r\n        )}\r\n      </Card.Body>\r\n    </Card>\r\n  );\r\n}\r\nexport default ProjectCards;\r\n"
+        }
+    ]
+}
