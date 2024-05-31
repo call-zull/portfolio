@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1716999542505,
@@ -24,6 +24,10 @@
                 {
                     "date": 1716999630438,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,17 +87,17 @@\n                 <CgFileDocument style={{ marginBottom: \"2px\" }} /> Resume\r\n               </Nav.Link>\r\n             </Nav.Item>\r\n \r\n-            <Nav.Item>\r\n+            {/* <Nav.Item>\r\n               <Nav.Link\r\n                 href=\"https://soumyajitblogs.vercel.app/\"\r\n                 target=\"_blank\"\r\n                 rel=\"noreferrer\"\r\n               >\r\n                 <ImBlog style={{ marginBottom: \"2px\" }} /> Blogs\r\n               </Nav.Link>\r\n-            </Nav.Item>\r\n+            </Nav.Item> */}\r\n \r\n             <Nav.Item className=\"fork-btn\">\r\n               <Button\r\n                 href=\"https://github.com/call-zull\"\r\n"
+                },
+                {
+                    "date": 1717125075586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,8 @@\n import logo from \"../Assets/call-zull-hill.png\";\r\n import Button from \"react-bootstrap/Button\";\r\n import { Link } from \"react-router-dom\";\r\n import { CgGitFork } from \"react-icons/cg\";\r\n-import { ImBlog } from \"react-icons/im\";\r\n import {\r\n   AiFillStar,\r\n   AiOutlineHome,\r\n   AiOutlineFundProjectionScreen,\r\n"
                 }
             ],
             "date": 1716999542505,
