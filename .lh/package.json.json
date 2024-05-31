@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 6,
+            "activePatchIndex": 9,
             "patches": [
                 {
                     "date": 1717006006433,
@@ -32,6 +32,18 @@
                 {
                     "date": 1717141183607,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n {\r\n-  \"homepage\": \"https://call-zull.github.io/portfolio-dark\",\r\n+  \"homepage\": \"https://call-zull.github.io/portfolio\",\r\n   \"name\": \"portfolio\",\r\n   \"version\": \"0.1.0\",\r\n   \"private\": true,\r\n   \"dependencies\": {\r\n"
+                },
+                {
+                    "date": 1717141445985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n {\r\n-  \"homepage\": \"https://call-zull.github.io/portfolio\",\r\n   \"name\": \"portfolio\",\r\n   \"version\": \"0.1.0\",\r\n   \"private\": true,\r\n   \"dependencies\": {\r\n@@ -24,11 +23,9 @@\n     \"web-vitals\": \"^2.1.4\"\r\n   },\r\n   \"scripts\": {\r\n     \"start\": \"react-scripts start\",\r\n-    \"predeploy\": \"npm run build\",\r\n-    \"deploy\": \"gh-pages -d build\",\r\n-    \"build\": \"CI=false react-scripts build\",\r\n+    \"build\": \"react-scripts build\",\r\n     \"test\": \"react-scripts test\",\r\n     \"eject\": \"react-scripts eject\"\r\n   },\r\n   \"eslintConfig\": {\r\n@@ -47,9 +44,6 @@\n       \"last 1 chrome version\",\r\n       \"last 1 firefox version\",\r\n       \"last 1 safari version\"\r\n     ]\r\n-  },\r\n-  \"devDependencies\": {\r\n-    \"gh-pages\": \"^6.1.1\"\r\n   }\r\n-}\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717141610577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n {\r\n+  \"homepage\": \"https://yourusername.github.io/your-repo\",\r\n   \"name\": \"portfolio\",\r\n   \"version\": \"0.1.0\",\r\n   \"private\": true,\r\n   \"dependencies\": {\r\n@@ -44,6 +45,9 @@\n       \"last 1 chrome version\",\r\n       \"last 1 firefox version\",\r\n       \"last 1 safari version\"\r\n     ]\r\n+  },\r\n+  \"devDependencies\": {\r\n\\ No newline at end of file\n+    \"gh-pages\": \"^6.1.1\"\r\n   }\r\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1717141634598,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,10 @@\n     \"typewriter-effect\": \"^2.18.2\",\r\n     \"web-vitals\": \"^2.1.4\"\r\n   },\r\n   \"scripts\": {\r\n+    \"predeploy\": \"npm run build\",\r\n+    \"deploy\": \"gh-pages -d build\",\r\n     \"start\": \"react-scripts start\",\r\n     \"build\": \"react-scripts build\",\r\n     \"test\": \"react-scripts test\",\r\n     \"eject\": \"react-scripts eject\"\r\n@@ -49,5 +51,5 @@\n   },\r\n   \"devDependencies\": {\r\n     \"gh-pages\": \"^6.1.1\"\r\n   }\r\n-}\n\\ No newline at end of file\n+}\r\n"
                 }
             ],
             "date": 1717006006433,
