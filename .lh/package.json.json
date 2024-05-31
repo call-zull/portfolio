@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1717006006433,
@@ -20,6 +20,10 @@
                 {
                     "date": 1717137468859,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n {\r\n-  \"homepage\": \"https://call-zull.github.io/portfolio-dark\",\r\n+  \"homepage\": \"https://zuldi.live\",\r\n   \"name\": \"portfolio\",\r\n   \"version\": \"0.1.0\",\r\n   \"private\": true,\r\n   \"dependencies\": {\r\n@@ -26,9 +26,9 @@\n   \"scripts\": {\r\n     \"start\": \"react-scripts start\",\r\n     \"predeploy\": \"npm run build\",\r\n     \"deploy\": \"gh-pages -d build\",\r\n-    \"build\": \"CI=false react-scripts build\",\r\n+    \"build\": \"react-scripts build\",\r\n     \"test\": \"react-scripts test\",\r\n     \"eject\": \"react-scripts eject\"\r\n   },\r\n   \"eslintConfig\": {\r\n"
+                },
+                {
+                    "date": 1717140213858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n {\r\n-  \"homepage\": \"https://zuldi.live\",\r\n+  \"homepage\": \"https://call-zull.github.io/portfolio-dark\",\r\n   \"name\": \"portfolio\",\r\n   \"version\": \"0.1.0\",\r\n   \"private\": true,\r\n   \"dependencies\": {\r\n"
                 }
             ],
             "date": 1717006006433,
