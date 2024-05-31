@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/App.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1717138246442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1717138246442,
+            "name": "Commit-0",
+            "content": "import React, { useState, useEffect } from \"react\";\r\nimport Preloader from \"../src/components/Pre\";\r\nimport Navbar from \"./components/Navbar\";\r\nimport Home from \"./components/Home/Home\";\r\nimport About from \"./components/About/About\";\r\nimport Projects from \"./components/Projects/Projects\";\r\nimport Footer from \"./components/Footer\";\r\nimport Resume from \"./components/Resume/ResumeNew\";\r\nimport {\r\n  HashRouter as Router, // Menggunakan HashRouter di sini\r\n  Route,\r\n  Routes,\r\n  Navigate\r\n} from \"react-router-dom\";\r\nimport ScrollToTop from \"./components/ScrollToTop\";\r\nimport \"./style.css\";\r\nimport \"./App.css\";\r\nimport \"bootstrap/dist/css/bootstrap.min.css\";\r\n\r\nfunction App() {\r\n  const [load, upadateLoad] = useState(true);\r\n\r\n  useEffect(() => {\r\n    const timer = setTimeout(() => {\r\n      upadateLoad(false);\r\n    }, 1200);\r\n\r\n    return () => clearTimeout(timer);\r\n  }, []);\r\n\r\n  return (\r\n    <Router>\r\n      <Preloader load={load} />\r\n      <div className=\"App\" id={load ? \"no-scroll\" : \"scroll\"}>\r\n        <Navbar />\r\n        <ScrollToTop />\r\n        <Routes>\r\n          <Route path=\"/\" element={<Home />} />\r\n          <Route path=\"/project\" element={<Projects />} />\r\n          <Route path=\"/about\" element={<About />} />\r\n          <Route path=\"/resume\" element={<Resume />} />\r\n          <Route path=\"*\" element={<Navigate to=\"/\" />} />\r\n        </Routes>\r\n        <Footer />\r\n      </div>\r\n    </Router>\r\n  );\r\n}\r\n\r\nexport default App;\r\n"
+        }
+    ]
+}
