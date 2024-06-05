@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.aa421065.css",
-    "main.js": "/portfolio/static/js/main.984fd374.js",
+    "main.css": "/portfolio/static/css/main.54acdd64.css",
+    "main.js": "/portfolio/static/js/main.80868934.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/CV-ATS-MSIB-7-Muhammad-Zulkifli.pdf": "/portfolio/static/media/CV-ATS-MSIB-7-Muhammad-Zulkifli.bfacc587fd1c88b4b9b7.pdf",
@@ -14,13 +14,13 @@
     "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portfolio/index.html",
-    "main.aa421065.css.map": "/portfolio/static/css/main.aa421065.css.map",
-    "main.984fd374.js.map": "/portfolio/static/js/main.984fd374.js.map",
+    "main.54acdd64.css.map": "/portfolio/static/css/main.54acdd64.css.map",
+    "main.80868934.js.map": "/portfolio/static/js/main.80868934.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa421065.css",
-    "static/js/main.984fd374.js"
+    "static/css/main.54acdd64.css",
+    "static/js/main.80868934.js"
   ]
 }
