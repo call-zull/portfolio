@@ -9,11 +9,22 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
-  const [width, setWidth] = useState(1200);
+  const [width, setWidth] = useState(window.innerWidth);
   const [numPages, setNumPages] = useState(null);
+  const [scale, setScale] = useState(1.0);
 
   useEffect(() => {
-    setWidth(window.innerWidth);
+    const handleResize = () => {
+      setWidth(window.innerWidth);
+      setScale(window.innerWidth > 786 ? 1.2 : 0.6); // Sesuaikan skala untuk mempertimbangkan padding
+    };
+
+    handleResize(); // Mengatur skala awal berdasarkan ukuran jendela awal
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   function onDocumentLoadSuccess({ numPages }) {
@@ -36,7 +47,7 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <Row className="resume">
+        <Row className="resume" style={{ padding: "0 20%" }}>
           <Document
             file={pdf}
             onLoadSuccess={onDocumentLoadSuccess}
@@ -46,7 +57,7 @@ function ResumeNew() {
               <Page
                 key={`page_${index + 1}`}
                 pageNumber={index + 1}
-                scale={width > 786 ? 1.7 : 0.6}
+                scale={scale}
               />
             ))}
           </Document>
