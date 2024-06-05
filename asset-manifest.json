@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.aa421065.css",
+    "main.js": "/portfolio/static/js/main.45686585.js",
+    "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/CV-ATS-MSIB-7-Muhammad-Zulkifli.pdf": "/portfolio/static/media/CV-ATS-MSIB-7-Muhammad-Zulkifli.bfacc587fd1c88b4b9b7.pdf",
+    "static/media/Moonbeads.png": "/portfolio/static/media/Moonbeads.a28c1133bcb194fbdab8.png",
+    "static/media/call-zull-hill.png": "/portfolio/static/media/call-zull-hill.9a2d1d497513f4a4bb2a.png",
+    "static/media/itech.svg": "/portfolio/static/media/itech.66a90923a4da1476bbe41bb0f1ff9f7f.svg",
+    "static/media/home-main.svg": "/portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Penginapan.png": "/portfolio/static/media/Penginapan.3ba5e41647ea6e83514b.png",
+    "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/portfolio/index.html",
+    "main.aa421065.css.map": "/portfolio/static/css/main.aa421065.css.map",
+    "main.45686585.js.map": "/portfolio/static/js/main.45686585.js.map",
+    "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa421065.css",
+    "static/js/main.45686585.js"
+  ]
+}
